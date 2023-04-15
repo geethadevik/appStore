@@ -1,0 +1,47 @@
+.apps-list-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  align-items: center;
+  padding-top: 16px;
+  list-style-type: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  width: 45%;
+  max-width: 128px;
+}
+
+@media screen and (min-width: 768px) {
+  .apps-list-container {
+    max-width: 198px;
+    padding-top: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+}
+.app-item-image {
+  width: 70px;
+  height: 70px;
+}
+@media screen and (min-width: 768px) {
+  .app-item-image {
+    width: 102px;
+    height: 102px;
+  }
+}
+.app-title {
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-title {
+    font-family: 'Bree Serif';
+    font-size: 24px;
+  }
+}
